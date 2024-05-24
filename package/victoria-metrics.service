@@ -11,7 +11,7 @@ RestartSec=1
 ExecStart=/usr/bin/victoria-metrics-prod -storageDataPath=/var/lib/victoria-metrics-data
 ExecStop=/bin/kill -s SIGTERM $MAINPID
 LimitNOFILE=65536
-LimitNPROC=32000
+LimitNPROC=65536
 
 [Install]
 WantedBy=multi-user.target

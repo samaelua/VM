@@ -1,0 +1,12 @@
+Source: package-name
+Section: misc
+Priority: optional
+Maintainer: Your Name <youremail@example.com>
+Build-Depends: debhelper (>= 9), dh-systemd
+Standards-Version: 3.9.8
+Homepage: http://www.example.com
+Package: package-name
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Short description
+Longer description
